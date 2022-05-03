@@ -3,7 +3,7 @@ const fs = require("fs");
 function writeToFile(note) {
   fs.writeFile("./db/db.json", JSON.stringify(note), (err) => {
     if (err) throw err;
-    console.log("DB File Updated!");
+    console.log("Server DB File Updated!");
   });
 }
 
@@ -17,4 +17,3 @@ function readFromFile() {
 }
 
 module.exports = { writeToFile, readFromFile };
-readFromFile();
