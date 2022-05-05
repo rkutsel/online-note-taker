@@ -8,7 +8,7 @@ apiRoute.get("/notes", (req, res) => {
 
 apiRoute.post("/notes", (req, res) => {
   let localDb = fileDb.readFromFile();
-  console.info(`${req.method} request received to add a note`);
+  console.info(`${req.method} Request to add a note received!`);
   console.log(req.body);
 
   const { title, text } = req.body;
@@ -33,7 +33,7 @@ apiRoute.post("/notes", (req, res) => {
     console.log(response);
     res.status(201).json(response);
   } else {
-    res.status(500).json("Error posting note");
+    res.status(500).json("Error: could not add the note");
   }
 });
 
@@ -45,7 +45,7 @@ apiRoute.delete("/notes/:uuid", (req, res) => {
     fileDb.writeToFile(localDb);
     res.status(201).json(req.params.uuid);
   } else {
-    res.status(500).json("Error posting note");
+    res.status(500).json("Error: could not delete the note");
   }
 });
 

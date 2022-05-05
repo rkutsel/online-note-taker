@@ -2,23 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Title
-
-## Table of Contents
-
-- [Description](#Description)
-
-- [Installation Instructions](#Installation)
-
-- [Usage with Examples](#Usage)
-
-- [Features](#Features)
-
-- [Tests](#Tests)
+# Online Note Taker
 
 ## Description
 
-A simple online note taker app deployed in heroku cloud. It can save and store your notes persistently.
+A simple online note taker app deployed in heroku cloud. It can add/delete your notes and store your notes permanently unless deleted.
 
 ## User Story
 
@@ -46,12 +34,42 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
-## Installation Instructions
+## Local Installation Instructions
+
+> NOTE: Make sure you have `Node.JS ~v16.14.2` and `NPM ~8.5.0` installed. You can quickly check this by running `node -v` for Node.JS and `npm -v` for NPM in your terminal.
+
+Once the above is confirmed, you can go ahead and clone the repo and install the dependencies by running `npm i` in your terminal. I recommend you install them locally. You should run and get somewhat similar output like the one bellow:
+
+```bash
+>npm i
+
+added 57 packages, and audited 58 packages in 1s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
 
 ## Usage with Examples
 
-## Features
+From the root directory start the server by running
 
-## Tests
+```bash
+npm start
+```
 
-N/A
+OR
+
+```bash
+node server
+```
+
+You should expect to see a similar output on a successful start
+
+```bash
+❯ node server
+App listening at http://localhost:3001
+```
+
+Once the server is up and running open up your browser and go to http://localhost:3001 that will take you to the main page from where you can start using the note taker app.
