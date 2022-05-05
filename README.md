@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[# Online Note Taker](https://obscure-beyond-79270.herokuapp.com)
+# [Online Note Taker](https://obscure-beyond-79270.herokuapp.com)
 
 ## Description
 
