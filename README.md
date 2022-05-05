@@ -2,11 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Online Note Taker
+[# Online Note Taker](https://obscure-beyond-79270.herokuapp.com)
 
 ## Description
 
-A simple online note taker app deployed in heroku cloud. It can add/delete your notes and store your notes permanently unless deleted.
+A simple online note taker app deployed in heroku cloud. It can add/delete your notes and store your notes permanently unless deleted. [Live page](https://obscure-beyond-79270.herokuapp.com)
 
 ## User Story
 
